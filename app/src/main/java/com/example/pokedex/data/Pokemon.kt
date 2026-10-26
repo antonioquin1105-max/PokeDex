@@ -18,3 +18,5 @@ data class pokemon(
         get() =
             "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/\$id.png"
 }
+
+annotation class Pokemon
